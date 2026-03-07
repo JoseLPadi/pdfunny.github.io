@@ -1,272 +1,207 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Game Suite - Privacy Policy</title>
+<title>Privacy Policy – PDFunny</title>
 
 <style>
 
 body{
-    font-family: Arial, sans-serif;
-    margin:40px;
-    max-width:900px;
-    line-height:1.6;
-    color:#333;
+  font-family: Arial, sans-serif;
+  line-height:1.6;
+  margin:0;
+  padding:0;
+  background-color:#f8f9fa;
+  color:#333;
 }
 
-h1,h2{
-    color:#222;
+header{
+  background-color:#ff4d4f;
+  color:white;
+  padding:20px 10px;
+  text-align:center;
 }
 
-.language-buttons{
-    margin-bottom:30px;
+.lang-buttons{
+  text-align:center;
+  margin-top:10px;
 }
 
-.language-buttons button{
-    padding:10px 16px;
-    margin-right:8px;
-    border:none;
-    border-radius:6px;
-    cursor:pointer;
-    background:#444;
-    color:white;
-    font-size:14px;
+.lang-buttons button{
+  margin:4px;
+  padding:8px 14px;
+  border:none;
+  border-radius:5px;
+  background:white;
+  color:#ff4d4f;
+  font-weight:bold;
+  cursor:pointer;
 }
 
-.language-buttons button:hover{
-    background:#666;
+.lang-buttons button:hover{
+  background:#ffe5e5;
+}
+
+main{
+  max-width:800px;
+  margin:30px auto;
+  padding:0 20px;
+}
+
+h1{
+  text-align:center;
+  margin-bottom:20px;
+}
+
+h2{
+  margin-top:25px;
+  color:#ff4d4f;
+}
+
+p{
+  margin-bottom:15px;
+}
+
+footer{
+  text-align:center;
+  font-size:0.9em;
+  color:#666;
+  margin:40px 0;
 }
 
 .lang{
-    display:none;
+  display:none;
 }
 
 .lang.active{
-    display:block;
+  display:block;
 }
 
 </style>
 
 <script>
-function showLang(lang){
-    const sections = document.querySelectorAll(".lang");
-    sections.forEach(sec => sec.classList.remove("active"));
-    document.getElementById(lang).classList.add("active");
+
+function changeLang(lang){
+  const sections = document.querySelectorAll(".lang");
+  sections.forEach(s => s.classList.remove("active"));
+  document.getElementById(lang).classList.add("active");
 }
+
 </script>
 
 </head>
 
 <body>
 
-<div class="language-buttons">
-<button onclick="showLang('en')">English</button>
-<button onclick="showLang('es')">Español</button>
-<button onclick="showLang('pt')">Português</button>
-<button onclick="showLang('id')">Indonesia</button>
+<header>
+
+<h1>PDFunny</h1>
+
+<div class="lang-buttons">
+<button onclick="changeLang('es')">Español</button>
+<button onclick="changeLang('en')">English</button>
+<button onclick="changeLang('pt')">Português</button>
+<button onclick="changeLang('id')">Indonesia</button>
 </div>
 
+</header>
+
+<main>
+
+<!-- ESPAÑOL -->
+
+<div id="es" class="lang active">
+
+<h1>Política de Privacidad</h1>
+
+<p>Bienvenido a PDFunny. Tu privacidad es importante para nosotros. A continuación explicamos cómo manejamos los datos y la información de los usuarios.</p>
+
+<h2>1. Datos personales</h2>
+<p>PDFunny no recopila datos personales del usuario. Toda la información se mantiene en el dispositivo del usuario y no se comparte con terceros.</p>
+
+<h2>2. Copias de seguridad</h2>
+<p>Se realizan copias de seguridad internas para la edición de cada PDF, sin modificar el archivo original. Esto permite que la experiencia de edición sea segura y reversible.</p>
+
+<h2>3. Datos de usuario y terceros</h2>
+<p>No vendemos datos de usuario a terceros. La información que maneja la app se mantiene estrictamente dentro del ámbito de la app y, en caso de usar publicidad de terceros, se aplican sus políticas propias.</p>
+
+<h2>4. Actualizaciones de la política</h2>
+<p>La política de privacidad puede actualizarse con cada nuevo release o versión de la app. Se recomienda revisar este documento periódicamente para estar al tanto de cualquier cambio.</p>
+
+</div>
 
 <!-- ENGLISH -->
 
-<div id="en" class="lang active">
+<div id="en" class="lang">
 
 <h1>Privacy Policy</h1>
-<p>Last updated: March 2026</p>
 
-<p>
-Thank you for using <strong>Game Suite</strong>. Your privacy is important to us.
-This Privacy Policy explains how information is handled when you use our mobile application.
-</p>
+<p>Welcome to PDFunny. Your privacy is important to us. Below we explain how we handle user information and data.</p>
 
-<h2>Information We Collect</h2>
+<h2>1. Personal Data</h2>
+<p>PDFunny does not collect personal user data. All information remains on the user's device and is not shared with third parties.</p>
 
-<p>
-Game Suite does <strong>not collect, store, or process any personal information</strong>.
-The app does not require login or registration.
-</p>
+<h2>2. Backups</h2>
+<p>Internal backups are created for each PDF editing session without modifying the original file. This ensures that editing is safe and reversible.</p>
 
-<h2>Third-Party Services</h2>
+<h2>3. User Data and Third Parties</h2>
+<p>We do not sell user data to third parties. Information handled by the app stays within the app environment. If third-party advertising services are used, their own privacy policies apply.</p>
 
-<p>
-Game Suite may use third-party services such as advertising providers.
-These services may collect device information to provide ads.
-</p>
-
-<p>
-You can review Google’s privacy policy here:
-https://policies.google.com/privacy
-</p>
-
-<h2>Children's Privacy</h2>
-
-<p>
-Game Suite does not knowingly collect personal information from children.
-</p>
-
-<h2>Changes to This Policy</h2>
-
-<p>
-This Privacy Policy may be updated occasionally.
-</p>
-
-<h2>Contact</h2>
-
-<p>Email: pdfunny.contact@gmail.com</p>
+<h2>4. Policy Updates</h2>
+<p>This privacy policy may be updated with new releases or versions of the app. Users are encouraged to review this document periodically.</p>
 
 </div>
-
-
-<!-- SPANISH -->
-
-<div id="es" class="lang">
-
-<h1>Política de Privacidad</h1>
-<p>Última actualización: Marzo 2026</p>
-
-<p>
-Gracias por usar <strong>Game Suite</strong>. Tu privacidad es importante para nosotros.
-Esta política explica cómo se maneja la información al usar nuestra aplicación.
-</p>
-
-<h2>Información que recopilamos</h2>
-
-<p>
-Game Suite <strong>no recopila ni almacena información personal</strong>.
-La aplicación no requiere registro ni inicio de sesión.
-</p>
-
-<h2>Servicios de terceros</h2>
-
-<p>
-La aplicación puede usar servicios externos como plataformas de publicidad
-que podrían recopilar información del dispositivo para mostrar anuncios.
-</p>
-
-<p>
-Puedes consultar la política de Google aquí:
-https://policies.google.com/privacy
-</p>
-
-<h2>Privacidad de menores</h2>
-
-<p>
-Game Suite no recopila intencionalmente información personal de menores.
-</p>
-
-<h2>Cambios en esta política</h2>
-
-<p>
-Esta política puede actualizarse ocasionalmente.
-</p>
-
-<h2>Contacto</h2>
-
-<p>Email: pdfunny.contact@gmail.com</p>
-
-</div>
-
 
 <!-- PORTUGUESE -->
 
 <div id="pt" class="lang">
 
 <h1>Política de Privacidade</h1>
-<p>Última atualização: Março 2026</p>
 
-<p>
-Obrigado por usar <strong>Game Suite</strong>.
-Sua privacidade é importante para nós.
-</p>
+<p>Bem-vindo ao PDFunny. Sua privacidade é importante para nós. A seguir explicamos como lidamos com informações e dados dos usuários.</p>
 
-<h2>Informações que coletamos</h2>
+<h2>1. Dados Pessoais</h2>
+<p>O PDFunny não coleta dados pessoais dos usuários. Todas as informações permanecem no dispositivo do usuário e não são compartilhadas com terceiros.</p>
 
-<p>
-Game Suite <strong>não coleta nem armazena dados pessoais</strong>.
-O aplicativo não exige cadastro ou login.
-</p>
+<h2>2. Backups</h2>
+<p>Backups internos são criados para cada edição de PDF sem modificar o arquivo original. Isso garante uma edição segura e reversível.</p>
 
-<h2>Serviços de terceiros</h2>
+<h2>3. Dados do Usuário e Terceiros</h2>
+<p>Não vendemos dados de usuários a terceiros. As informações permanecem dentro do aplicativo. Caso serviços de publicidade de terceiros sejam utilizados, aplicam-se suas próprias políticas de privacidade.</p>
 
-<p>
-O aplicativo pode usar serviços externos como plataformas de anúncios
-que podem coletar informações do dispositivo.
-</p>
-
-<p>
-Política de privacidade do Google:
-https://policies.google.com/privacy
-</p>
-
-<h2>Privacidade infantil</h2>
-
-<p>
-Game Suite não coleta intencionalmente dados pessoais de crianças.
-</p>
-
-<h2>Alterações nesta política</h2>
-
-<p>
-Esta política pode ser atualizada ocasionalmente.
-</p>
-
-<h2>Contato</h2>
-
-<p>Email: pdfunny.contact@gmail.com</p>
+<h2>4. Atualizações da Política</h2>
+<p>Esta política de privacidade pode ser atualizada com novas versões do aplicativo. Recomenda-se revisar este documento periodicamente.</p>
 
 </div>
 
-
-<!-- INDONESIAN -->
+<!-- INDONESIA -->
 
 <div id="id" class="lang">
 
 <h1>Kebijakan Privasi</h1>
-<p>Pembaruan terakhir: Maret 2026</p>
 
-<p>
-Terima kasih telah menggunakan <strong>Game Suite</strong>.
-Privasi Anda penting bagi kami.
-</p>
+<p>Selamat datang di PDFunny. Privasi Anda penting bagi kami. Berikut ini kami menjelaskan bagaimana kami menangani informasi pengguna.</p>
 
-<h2>Informasi yang Kami Kumpulkan</h2>
+<h2>1. Data Pribadi</h2>
+<p>PDFunny tidak mengumpulkan data pribadi pengguna. Semua informasi tetap berada di perangkat pengguna dan tidak dibagikan kepada pihak ketiga.</p>
 
-<p>
-Game Suite <strong>tidak mengumpulkan atau menyimpan data pribadi</strong>.
-Aplikasi tidak memerlukan login atau pendaftaran.
-</p>
+<h2>2. Cadangan Data</h2>
+<p>Cadangan internal dibuat untuk setiap proses pengeditan PDF tanpa mengubah file asli. Hal ini memastikan proses pengeditan aman dan dapat dibatalkan.</p>
 
-<h2>Layanan Pihak Ketiga</h2>
+<h2>3. Data Pengguna dan Pihak Ketiga</h2>
+<p>Kami tidak menjual data pengguna kepada pihak ketiga. Informasi tetap berada dalam aplikasi. Jika layanan iklan pihak ketiga digunakan, kebijakan privasi mereka yang berlaku.</p>
 
-<p>
-Aplikasi dapat menggunakan layanan pihak ketiga seperti penyedia iklan
-yang mungkin mengumpulkan informasi perangkat.
-</p>
-
-<p>
-Kebijakan privasi Google:
-https://policies.google.com/privacy
-</p>
-
-<h2>Privasi Anak</h2>
-
-<p>
-Game Suite tidak secara sengaja mengumpulkan informasi pribadi dari anak-anak.
-</p>
-
-<h2>Perubahan Kebijakan</h2>
-
-<p>
-Kebijakan ini dapat diperbarui dari waktu ke waktu.
-</p>
-
-<h2>Kontak</h2>
-
-<p>Email: pdfunny.contact@gmail.com</p>
+<h2>4. Pembaruan Kebijakan</h2>
+<p>Kebijakan privasi ini dapat diperbarui pada setiap rilis atau versi baru aplikasi. Disarankan untuk meninjau halaman ini secara berkala.</p>
 
 </div>
 
+</main>
+
+<footer>
+<p>&copy; 2026 PDFunny. Todos los derechos reservados.</p>
+</footer>
 
 </body>
 </html>
