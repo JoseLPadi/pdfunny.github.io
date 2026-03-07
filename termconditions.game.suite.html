@@ -3,8 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Privacy Policy - Game Suite</title>
+<title>Game Suite - Privacy Policy</title>
+
 <style>
+
 body{
     font-family: Arial, sans-serif;
     margin:40px;
@@ -12,16 +14,65 @@ body{
     line-height:1.6;
     color:#333;
 }
+
 h1,h2{
     color:#222;
 }
+
+.language-buttons{
+    margin-bottom:30px;
+}
+
+.language-buttons button{
+    padding:10px 16px;
+    margin-right:8px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    background:#444;
+    color:white;
+    font-size:14px;
+}
+
+.language-buttons button:hover{
+    background:#666;
+}
+
+.lang{
+    display:none;
+}
+
+.lang.active{
+    display:block;
+}
+
 </style>
+
+<script>
+function showLang(lang){
+    const sections = document.querySelectorAll(".lang");
+    sections.forEach(sec => sec.classList.remove("active"));
+    document.getElementById(lang).classList.add("active");
+}
+</script>
+
 </head>
 
 <body>
 
-<h1>Privacy Policy</h1>
+<div class="language-buttons">
+<button onclick="showLang('en')">English</button>
+<button onclick="showLang('es')">Español</button>
+<button onclick="showLang('pt')">Português</button>
+<button onclick="showLang('id')">Indonesia</button>
+</div>
 
+
+<!-- ENGLISH -->
+
+<div id="en" class="lang active">
+
+<h1>Privacy Policy</h1>
 <p>Last updated: March 2026</p>
 
 <p>
@@ -32,56 +83,190 @@ This Privacy Policy explains how information is handled when you use our mobile 
 <h2>Information We Collect</h2>
 
 <p>
-Game Suite does <strong>not collect, store, or process any personal information</strong> from users.
-The application does not require registration, login, or personal data input.
+Game Suite does <strong>not collect, store, or process any personal information</strong>.
+The app does not require login or registration.
 </p>
 
 <h2>Third-Party Services</h2>
 
 <p>
-Game Suite may use third-party services to support app functionality, such as displaying advertisements.
-These services may collect information used to identify your device or provide personalized advertising.
+Game Suite may use third-party services such as advertising providers.
+These services may collect device information to provide ads.
 </p>
 
 <p>
-For example, we may use advertising services provided by Google AdMob. These services operate under their own privacy policies.
-</p>
-
-<p>
-You can review Google's privacy policy here:
-<br>
+You can review Google’s privacy policy here:
 https://policies.google.com/privacy
 </p>
 
-<h2>Children’s Privacy</h2>
+<h2>Children's Privacy</h2>
 
 <p>
 Game Suite does not knowingly collect personal information from children.
-Since we do not collect user data directly, there is no personal data stored or processed by the app.
 </p>
 
-<h2>Data Security</h2>
+<h2>Changes to This Policy</h2>
 
 <p>
-Because Game Suite does not collect or store personal information, there is no user data stored by the application.
-</p>
-
-<h2>Changes to This Privacy Policy</h2>
-
-<p>
-We may update this Privacy Policy from time to time.
-Any changes will be reflected on this page with an updated revision date.
+This Privacy Policy may be updated occasionally.
 </p>
 
 <h2>Contact</h2>
 
+<p>Email: pdfunny.contact@gmail.com</p>
+
+</div>
+
+
+<!-- SPANISH -->
+
+<div id="es" class="lang">
+
+<h1>Política de Privacidad</h1>
+<p>Última actualización: Marzo 2026</p>
+
 <p>
-If you have any questions about this Privacy Policy, you can contact us at:
+Gracias por usar <strong>Game Suite</strong>. Tu privacidad es importante para nosotros.
+Esta política explica cómo se maneja la información al usar nuestra aplicación.
+</p>
+
+<h2>Información que recopilamos</h2>
+
+<p>
+Game Suite <strong>no recopila ni almacena información personal</strong>.
+La aplicación no requiere registro ni inicio de sesión.
+</p>
+
+<h2>Servicios de terceros</h2>
+
+<p>
+La aplicación puede usar servicios externos como plataformas de publicidad
+que podrían recopilar información del dispositivo para mostrar anuncios.
 </p>
 
 <p>
-Email: pdfunny.contact@gmail.com
+Puedes consultar la política de Google aquí:
+https://policies.google.com/privacy
 </p>
+
+<h2>Privacidad de menores</h2>
+
+<p>
+Game Suite no recopila intencionalmente información personal de menores.
+</p>
+
+<h2>Cambios en esta política</h2>
+
+<p>
+Esta política puede actualizarse ocasionalmente.
+</p>
+
+<h2>Contacto</h2>
+
+<p>Email: pdfunny.contact@gmail.com</p>
+
+</div>
+
+
+<!-- PORTUGUESE -->
+
+<div id="pt" class="lang">
+
+<h1>Política de Privacidade</h1>
+<p>Última atualização: Março 2026</p>
+
+<p>
+Obrigado por usar <strong>Game Suite</strong>.
+Sua privacidade é importante para nós.
+</p>
+
+<h2>Informações que coletamos</h2>
+
+<p>
+Game Suite <strong>não coleta nem armazena dados pessoais</strong>.
+O aplicativo não exige cadastro ou login.
+</p>
+
+<h2>Serviços de terceiros</h2>
+
+<p>
+O aplicativo pode usar serviços externos como plataformas de anúncios
+que podem coletar informações do dispositivo.
+</p>
+
+<p>
+Política de privacidade do Google:
+https://policies.google.com/privacy
+</p>
+
+<h2>Privacidade infantil</h2>
+
+<p>
+Game Suite não coleta intencionalmente dados pessoais de crianças.
+</p>
+
+<h2>Alterações nesta política</h2>
+
+<p>
+Esta política pode ser atualizada ocasionalmente.
+</p>
+
+<h2>Contato</h2>
+
+<p>Email: pdfunny.contact@gmail.com</p>
+
+</div>
+
+
+<!-- INDONESIAN -->
+
+<div id="id" class="lang">
+
+<h1>Kebijakan Privasi</h1>
+<p>Pembaruan terakhir: Maret 2026</p>
+
+<p>
+Terima kasih telah menggunakan <strong>Game Suite</strong>.
+Privasi Anda penting bagi kami.
+</p>
+
+<h2>Informasi yang Kami Kumpulkan</h2>
+
+<p>
+Game Suite <strong>tidak mengumpulkan atau menyimpan data pribadi</strong>.
+Aplikasi tidak memerlukan login atau pendaftaran.
+</p>
+
+<h2>Layanan Pihak Ketiga</h2>
+
+<p>
+Aplikasi dapat menggunakan layanan pihak ketiga seperti penyedia iklan
+yang mungkin mengumpulkan informasi perangkat.
+</p>
+
+<p>
+Kebijakan privasi Google:
+https://policies.google.com/privacy
+</p>
+
+<h2>Privasi Anak</h2>
+
+<p>
+Game Suite tidak secara sengaja mengumpulkan informasi pribadi dari anak-anak.
+</p>
+
+<h2>Perubahan Kebijakan</h2>
+
+<p>
+Kebijakan ini dapat diperbarui dari waktu ke waktu.
+</p>
+
+<h2>Kontak</h2>
+
+<p>Email: pdfunny.contact@gmail.com</p>
+
+</div>
+
 
 </body>
 </html>
