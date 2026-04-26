@@ -1,276 +1,315 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Privacy Policy – Light SUDOKU</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy – Light SUDOKU</title>
 
-<style>
-body{
-  font-family: Arial, sans-serif;
-  line-height:1.6;
-  margin:0;
-  padding:0;
-  background-color:#f8f9fa;
-  color:#333;
-}
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+      color: #333;
+    }
 
-header{
-  background-color:#4CAF50;
-  color:white;
-  padding:20px 10px;
-  text-align:center;
-}
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px 10px;
+      text-align: center;
+    }
 
-.lang-buttons{
-  text-align:center;
-  margin-top:10px;
-}
+    .lang-buttons {
+      text-align: center;
+      margin-top: 10px;
+    }
 
-.lang-buttons button{
-  margin:4px;
-  padding:8px 14px;
-  border:none;
-  border-radius:5px;
-  background:white;
-  color:#4CAF50;
-  font-weight:bold;
-  cursor:pointer;
-}
+    .lang-buttons button {
+      margin: 4px;
+      padding: 8px 14px;
+      border: none;
+      border-radius: 5px;
+      background: white;
+      color: #4CAF50;
+      font-weight: bold;
+      cursor: pointer;
+    }
 
-main{
-  max-width:800px;
-  margin:30px auto;
-  padding:0 20px;
-}
+    main {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
 
-h2{
-  margin-top:25px;
-  color:#4CAF50;
-}
+    h2 {
+      margin-top: 25px;
+      color: #4CAF50;
+    }
 
-.lang{ display:none; }
-.lang.active{ display:block; }
-</style>
+    .lang {
+      display: none;
+    }
 
-<script>
-function changeLang(lang){
-  document.querySelectorAll(".lang").forEach(s => s.classList.remove("active"));
-  document.getElementById(lang).classList.add("active");
-}
-</script>
+    .lang.active {
+      display: block;
+    }
+  </style>
+
+  <script>
+    function changeLang(lang) {
+      document.querySelectorAll(".lang").forEach(s => s.classList.remove("active"));
+      document.getElementById(lang).classList.add("active");
+    }
+  </script>
 
 </head>
 
 <body>
 
-<header>
-<h1>Light Sudoku</h1>
+  <header>
+    <h1>Light Sudoku</h1>
 
-<div class="lang-buttons">
-<button onclick="changeLang('es')">ES</button>
-<button onclick="changeLang('en')">EN</button>
-<button onclick="changeLang('pt')">PT</button>
-<button onclick="changeLang('id')">ID</button>
-<button onclick="changeLang('de')">DE</button>
-<button onclick="changeLang('fr')">FR</button>
-<button onclick="changeLang('it')">IT</button>
-<button onclick="changeLang('tr')">TR</button>
-<button onclick="changeLang('pl')">PL</button>
-<button onclick="changeLang('ru')">RU</button>
-</div>
+    <div class="lang-buttons">
+      <button onclick="changeLang('es')">ES</button>
+      <button onclick="changeLang('en')">EN</button>
+      <button onclick="changeLang('pt')">PT</button>
+      <button onclick="changeLang('id')">ID</button>
+      <button onclick="changeLang('de')">DE</button>
+      <button onclick="changeLang('fr')">FR</button>
+      <button onclick="changeLang('it')">IT</button>
+      <button onclick="changeLang('tr')">TR</button>
+      <button onclick="changeLang('pl')">PL</button>
+      <button onclick="changeLang('ru')">RU</button>
+    </div>
 
-</header>
+  </header>
 
-<main>
+  <main>
 
-<!-- BASE TEMPLATE (usado para todos los idiomas) -->
+    <!-- BASE TEMPLATE (usado para todos los idiomas) -->
 
-<!-- ESPAÑOL -->
-<div id="es" class="lang active">
-<h1>Política de Privacidad</h1>
-<p>Bienvenido a Light Sudoku. Tu privacidad es importante para nosotros.</p>
+    <!-- ESPAÑOL -->
+    <div id="es" class="lang active">
+      <h1>Política de Privacidad</h1>
+      <p>Bienvenido a Light Sudoku. Tu privacidad es importante para nosotros.</p>
 
-<h2>1. Datos personales</h2>
-<p>No recopilamos datos personales. El usuario se autentica de forma anónima utilizando Firebase Authentication.</p>
+      <h2>1. Datos personales</h2>
+      <p>No recopilamos datos personales. El usuario se autentica de forma anónima utilizando Firebase Authentication.
+      </p>
 
-<h2>2. Uso de datos</h2>
-<p>Se genera un identificador anónimo únicamente para permitir el funcionamiento del juego. No se asocia a información personal.</p>
+      <h2>2. Uso de datos</h2>
+      <p>Se genera un identificador anónimo únicamente para permitir el funcionamiento del juego. No se asocia a
+        información personal.</p>
 
-<h2>3. Compartición de datos</h2>
-<p>No compartimos ni vendemos datos a terceros.</p>
+      <h2>3. Publicidad y Proveedores Terceros</h2>
+      <p>Utilizamos Appodeal para mostrar anuncios. Para ello, se pueden recopilar identificadores técnicos como la dirección IP y el ID de publicidad del dispositivo. Consulta la <a href="https://appodeal.com/privacy-policy/" target="_blank">Política de Privacidad de Appodeal</a> para más información.</p>
 
-<h2>4. Cambios</h2>
-<p>Esta política puede actualizarse en futuras versiones.</p>
-</div>
+      <h2>4. Compartición de datos</h2>
+      <p>No compartimos ni vendemos datos personales a terceros, fuera de los identificadores técnicos necesarios para la publicidad mencionada anteriormente.</p>
 
-<!-- ENGLISH -->
-<div id="en" class="lang">
-<h1>Privacy Policy</h1>
-<p>Welcome to Light Sudoku. Your privacy is important to us.</p>
+      <h2>5. Cambios</h2>
+      <p>Esta política puede actualizarse en futuras versiones.</p>
+    </div>
 
-<h2>1. Personal Data</h2>
-<p>No personal data is collected. Users authenticate anonymously using Firebase Authentication.</p>
+    <!-- ENGLISH -->
+    <div id="en" class="lang">
+      <h1>Privacy Policy</h1>
+      <p>Welcome to Light Sudoku. Your privacy is important to us.</p>
 
-<h2>2. Data Usage</h2>
-<p>An anonymous identifier is generated only to enable game functionality.</p>
+      <h2>1. Personal Data</h2>
+      <p>No personal data is collected. Users authenticate anonymously using Firebase Authentication.</p>
 
-<h2>3. Data Sharing</h2>
-<p>We do not share or sell user data.</p>
+      <h2>2. Data Usage</h2>
+      <p>An anonymous identifier is generated only to enable game functionality.</p>
 
-<h2>4. Updates</h2>
-<p>This policy may be updated in future versions.</p>
-</div>
+      <h2>3. Advertising and Third-Party Providers</h2>
+      <p>We use Appodeal to display ads. For this purpose, technical identifiers such as your IP address and device advertising ID may be collected. Please refer to the <a href="https://appodeal.com/privacy-policy/" target="_blank">Appodeal Privacy Policy</a> for more information.</p>
 
-<!-- PORTUGUÉS -->
-<div id="pt" class="lang">
-<h1>Política de Privacidade</h1>
-<p>Bem-vindo ao Light Sudoku.</p>
+      <h2>4. Data Sharing</h2>
+      <p>We do not share or sell personal user data, other than the technical identifiers required for advertising mentioned above.</p>
 
-<h2>1. Dados</h2>
-<p>Não coletamos dados pessoais. Login anônimo via Firebase.</p>
+      <h2>5. Updates</h2>
+      <p>This policy may be updated in future versions.</p>
+    </div>
 
-<h2>2. Uso</h2>
-<p>ID anônimo apenas para funcionamento do jogo.</p>
+    <!-- PORTUGUÉS -->
+    <div id="pt" class="lang">
+      <h1>Política de Privacidade</h1>
+      <p>Bem-vindo ao Light Sudoku.</p>
 
-<h2>3. Compartilhamento</h2>
-<p>Não compartilhamos dados.</p>
+      <h2>1. Dados</h2>
+      <p>Não coletamos dados pessoais. Login anônimo via Firebase.</p>
 
-<h2>4. Atualizações</h2>
-<p>Política pode mudar.</p>
-</div>
+      <h2>2. Uso</h2>
+      <p>ID anônimo apenas para funcionamento do jogo.</p>
 
-<!-- INDONESIO -->
-<div id="id" class="lang">
-<h1>Kebijakan Privasi</h1>
-<p>Selamat datang di Light Sudoku.</p>
+      <h2>3. Publicidade e Provedores de Terceiros</h2>
+      <p>Usamos o Appodeal para exibir anúncios. Para isso, identificadores técnicos como seu endereço IP e ID de publicidade do dispositivo podem ser coletados. Consulte a <a href="https://appodeal.com/privacy-policy/" target="_blank">Política de Privacidade do Appodeal</a> para mais informações.</p>
 
-<h2>1. Data</h2>
-<p>Tidak ada data pribadi dikumpulkan. Login anonim dengan Firebase.</p>
+      <h2>4. Compartilhamento</h2>
+      <p>Não compartilhamos dados pessoais, exceto os identificadores técnicos para fins publicitários.</p>
 
-<h2>2. Penggunaan</h2>
-<p>ID anonim hanya untuk fungsi game.</p>
+      <h2>5. Atualizações</h2>
+      <p>Política pode mudar.</p>
+    </div>
 
-<h2>3. Berbagi</h2>
-<p>Tidak membagikan data.</p>
+    <!-- INDONESIO -->
+    <div id="id" class="lang">
+      <h1>Kebijakan Privasi</h1>
+      <p>Selamat datang di Light Sudoku.</p>
 
-<h2>4. Pembaruan</h2>
-<p>Dapat diperbarui.</p>
-</div>
+      <h2>1. Data</h2>
+      <p>Tidak ada data pribadi dikumpulkan. Login anonim dengan Firebase.</p>
 
-<!-- ALEMÁN -->
-<div id="de" class="lang">
-<h1>Datenschutz</h1>
-<p>Willkommen bei Light Sudoku.</p>
+      <h2>2. Penggunaan</h2>
+      <p>ID anonim hanya untuk fungsi game.</p>
 
-<h2>1. Daten</h2>
-<p>Keine persönlichen Daten werden gesammelt. Anonyme Anmeldung über Firebase.</p>
+      <h2>3. Iklan dan Penyedia Pihak Ketiga</h2>
+      <p>Kami menggunakan Appodeal untuk menampilkan iklan. Untuk tujuan ini, pengidentifikasi teknis seperti alamat IP dan ID iklan perangkat Anda dapat dikumpulkan. Silakan merujuk ke <a href="https://appodeal.com/privacy-policy/" target="_blank">Kebijakan Privasi Appodeal</a> untuk informasi lebih lanjut.</p>
 
-<h2>2. Nutzung</h2>
-<p>Anonyme ID nur für Spielfunktion.</p>
+      <h2>4. Berbagi</h2>
+      <p>Tidak membagikan data pribadi selain pengidentifikasi teknis untuk iklan.</p>
 
-<h2>3. Weitergabe</h2>
-<p>Keine Weitergabe von Daten.</p>
+      <h2>5. Pembaruan</h2>
+      <p>Dapat diperbarui.</p>
+    </div>
 
-<h2>4. Updates</h2>
-<p>Kann aktualisiert werden.</p>
-</div>
+    <!-- ALEMÁN -->
+    <div id="de" class="lang">
+      <h1>Datenschutz</h1>
+      <p>Willkommen bei Light Sudoku.</p>
 
-<!-- FRANCÉS -->
-<div id="fr" class="lang">
-<h1>Politique de Confidentialité</h1>
-<p>Bienvenue sur Light Sudoku.</p>
+      <h2>1. Daten</h2>
+      <p>Keine persönlichen Daten werden gesammelt. Anonyme Anmeldung über Firebase.</p>
 
-<h2>1. Données</h2>
-<p>Aucune donnée personnelle collectée. Connexion anonyme via Firebase.</p>
+      <h2>2. Nutzung</h2>
+      <p>Anonyme ID nur für Spielfunktion.</p>
 
-<h2>2. Utilisation</h2>
-<p>ID anonyme pour le fonctionnement.</p>
+      <h2>3. Werbung und Drittanbieter</h2>
+      <p>Wir verwenden Appodeal, um Werbung anzuzeigen. Zu diesem Zweck können technische Identifikatoren wie Ihre IP-Adresse und die Wer-ID Ihres Geräts erfasst werden. Weitere Informationen finden Sie in der <a href="https://appodeal.com/privacy-policy/" target="_blank">Datenschutzerklärung von Appodeal</a>.</p>
 
-<h2>3. Partage</h2>
-<p>Aucun partage de données.</p>
+      <h2>4. Weitergabe</h2>
+      <p>Keine Weitergabe von persönlichen Daten, außer technischen Identifikatoren für Werbung.</p>
 
-<h2>4. Mises à jour</h2>
-<p>Peut être modifiée.</p>
-</div>
+      <h2>5. Updates</h2>
+      <p>Kann aktualisiert werden.</p>
+    </div>
 
-<!-- ITALIANO -->
-<div id="it" class="lang">
-<h1>Informativa sulla Privacy</h1>
-<p>Benvenuto in Light Sudoku.</p>
+    <!-- FRANCÉS -->
+    <div id="fr" class="lang">
+      <h1>Politique de Confidentialité</h1>
+      <p>Bienvenue sur Light Sudoku.</p>
 
-<h2>1. Dati</h2>
-<p>Nessun dato personale raccolto. Accesso anonimo con Firebase.</p>
+      <h2>1. Données</h2>
+      <p>Aucune donnée personnelle collectée. Connexion anonyme via Firebase.</p>
 
-<h2>2. Uso</h2>
-<p>ID anonimo per il gioco.</p>
+      <h2>2. Utilisation</h2>
+      <p>ID anonyme pour le fonctionnement.</p>
 
-<h2>3. Condivisione</h2>
-<p>Nessuna condivisione.</p>
+      <h2>3. Publicité et Fournisseurs Tiers</h2>
+      <p>Nous utilisons Appodeal pour afficher des publicités. À cette fin, des identifiants techniques tels que votre adresse IP et l'identifiant publicitaire de votre appareil peuvent être collectés. Veuillez consulter la <a href="https://appodeal.com/privacy-policy/" target="_blank">Politique de Confidentialité d'Appodeal</a> pour plus d'informations.</p>
 
-<h2>4. Aggiornamenti</h2>
-<p>Può cambiare.</p>
-</div>
+      <h2>4. Partage</h2>
+      <p>Aucun partage de données personnelles, à l'exception des identifiants techniques pour la publicité.</p>
 
-<!-- TURCO -->
-<div id="tr" class="lang">
-<h1>Gizlilik Politikası</h1>
-<p>Light Sudoku'ya hoş geldiniz.</p>
+      <h2>5. Mises à jour</h2>
+      <p>Peut être modifiée.</p>
+    </div>
 
-<h2>1. Veri</h2>
-<p>Kişisel veri toplanmaz. Firebase ile anonim giriş.</p>
+    <!-- ITALIANO -->
+    <div id="it" class="lang">
+      <h1>Informativa sulla Privacy</h1>
+      <p>Benvenuto in Light Sudoku.</p>
 
-<h2>2. Kullanım</h2>
-<p>Anonim kimlik sadece oyun için.</p>
+      <h2>1. Dati</h2>
+      <p>Nessun dato personale raccolto. Accesso anonimo con Firebase.</p>
 
-<h2>3. Paylaşım</h2>
-<p>Veri paylaşılmaz.</p>
+      <h2>2. Uso</h2>
+      <p>ID anonimo per il gioco.</p>
 
-<h2>4. Güncellemeler</h2>
-<p>Değişebilir.</p>
-</div>
+      <h2>3. Pubblicità e Fornitori Terzi</h2>
+      <p>Utilizziamo Appodeal per visualizzare annunci. A tale scopo, potrebbero essere raccolti identificadores tecnici come l'indirizzo IP e l'ID pubblicitario del dispositivo. Consulta l' <a href="https://appodeal.com/privacy-policy/" target="_blank">Informativa sulla Privacy di Appodeal</a> per ulteriori informazioni.</p>
 
-<!-- POLACO -->
-<div id="pl" class="lang">
-<h1>Polityka Prywatności</h1>
-<p>Witamy w Light Sudoku.</p>
+      <h2>4. Condivisione</h2>
+      <p>Nessuna condivisione di dati personali, eccetto gli identificatori tecnici per la pubblicità.</p>
 
-<h2>1. Dane</h2>
-<p>Brak zbierania danych osobowych. Logowanie anonimowe Firebase.</p>
+      <h2>5. Aggiornamenti</h2>
+      <p>Può cambiare.</p>
+    </div>
 
-<h2>2. Użycie</h2>
-<p>ID anonimowe tylko do gry.</p>
+    <!-- TURCO -->
+    <div id="tr" class="lang">
+      <h1>Gizlilik Politikası</h1>
+      <p>Light Sudoku'ya hoş geldiniz.</p>
 
-<h2>3. Udostępnianie</h2>
-<p>Brak udostępniania.</p>
+      <h2>1. Veri</h2>
+      <p>Kişisel veri toplanmaz. Firebase ile anonim giriş.</p>
 
-<h2>4. Aktualizacje</h2>
-<p>Może ulec zmianie.</p>
-</div>
+      <h2>2. Kullanım</h2>
+      <p>Anonim kimlik sadece oyun için.</p>
 
-<!-- RUSO -->
-<div id="ru" class="lang">
-<h1>Политика конфиденциальности</h1>
-<p>Добро пожаловать в Light Sudoku.</p>
+      <h2>3. Reklam ve Üçüncü Taraf Sağlayıcılar</h2>
+      <p>Reklam göstermek için Appodeal kullanıyoruz. Bu amaçla, IP adresiniz ve cihaz reklam kimliğiniz gibi teknik tanımlayıcılar toplanabilir. Daha fazla bilgi için lütfen <a href="https://appodeal.com/privacy-policy/" target="_blank">Appodeal Gizlilik Politikası</a>'na bakın.</p>
 
-<h2>1. Данные</h2>
-<p>Личные данные не собираются. Анонимный вход через Firebase.</p>
+      <h2>4. Paylaşım</h2>
+      <p>Reklam amaçlı teknik tanımlayıcılar dışında veri paylaşılmaz.</p>
 
-<h2>2. Использование</h2>
-<p>Анонимный ID только для работы игры.</p>
+      <h2>5. Güncellemeler</h2>
+      <p>Değişebilir.</p>
+    </div>
 
-<h2>3. Передача</h2>
-<p>Данные не передаются.</p>
+    <!-- POLACO -->
+    <div id="pl" class="lang">
+      <h1>Polityka Prywatności</h1>
+      <p>Witamy w Light Sudoku.</p>
 
-<h2>4. Обновления</h2>
-<p>Может обновляться.</p>
-</div>
+      <h2>1. Dane</h2>
+      <p>Brak zbierania danych osobowych. Logowanie anonimowe Firebase.</p>
 
-</main>
+      <h2>2. Użycie</h2>
+      <p>ID anonimowe tylko do gry.</p>
 
-<footer>
-<p>© 2026 Light Sudoku</p>
-</footer>
+      <h2>3. Reklama i dostawcy zewnętrzni</h2>
+      <p>Używamy Appodeal do wyświetlania reklam. W tym celu mogą być zbierane identyfikatory techniczne, takie jak adres IP i identyfikator reklamowy urządzenia. Więcej informacji można znaleźć w <a href="https://appodeal.com/privacy-policy/" target="_blank">Polityce prywatności Appodeal</a>.</p>
+
+      <h2>4. Udostępnianie</h2>
+      <p>Brak udostępniania danych osobowych, z wyjątkiem identyfikatorów technicznych do celów reklamowych.</p>
+
+      <h2>5. Aktualizacje</h2>
+      <p>Może ulec zmianie.</p>
+    </div>
+
+    <!-- RUSO -->
+    <div id="ru" class="lang">
+      <h1>Политика конфиденциальности</h1>
+      <p>Добро пожаловать в Light Sudoku.</p>
+
+      <h2>1. Данные</h2>
+      <p>Личные данные не собираются. Анонимный вход через Firebase.</p>
+
+      <h2>2. Использование</h2>
+      <p>Анонимный ID только для работы игры.</p>
+
+      <h2>3. Реклама и сторонние поставщики</h2>
+      <p>Мы используем Appodeal для показа рекламы. Для этой цели могут собираться технические идентификаторы, такие как ваш IP-адрес и рекламный идентификатор устройства. Дополнительную информацию можно найти в <a href="https://appodeal.com/privacy-policy/" target="_blank">Политике конфиденциальности Appodeal</a>.</p>
+
+      <h2>4. Передача</h2>
+      <p>Личные данные не передаются, за исключением технических идентификаторов для рекламы.</p>
+
+      <h2>5. Обновления</h2>
+      <p>Может обновляться.</p>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Light Sudoku</p>
+  </footer>
 
 </body>
+
 </html>
